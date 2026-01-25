@@ -20,14 +20,18 @@ export default function Formcontacto() {
         },
       );
 
+      const result = await response.json();
+
       if (response.ok) {
         setStatus("success");
         e.target.reset();
       } else {
+        console.error("Detalle del error del servidor:", result.error_detail);
+        alert("Error del servidor: " + result.error_detail);
         setStatus("error");
       }
     } catch (error) {
-      console.error("Error al enviar:", error);
+      console.error("Error de red:", error);
       setStatus("error");
     }
   };
