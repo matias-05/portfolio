@@ -31,6 +31,7 @@ export const PROJECTS = [
     title: "Rincón Del Budín",
     description: "Proyecto e-commerce para la venta de budines",
     frontend: ["React", "React Router", "Tailwind"],
+    backend: ["Node.js"],
     db: ["Firebase"],
     link: "https://github.com/matias-05/proyecto-budin",
     linkPag: "https://rincon-del-budin.vercel.app/",
@@ -42,6 +43,7 @@ export const PROJECTS = [
     description:
       "Proyecto e-commerce para la venta de mates, termos, bombillas, etc.",
     frontend: ["React", "React Router", "Tailwind"],
+    backend: ["Node.js"],
     db: ["Firebase"],
     link: "https://github.com/matias-05/orilla-mates",
     linkPag: "https://orilla-mates.vercel.app/",
