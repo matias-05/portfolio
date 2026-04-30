@@ -2,6 +2,7 @@ import gym from "../assets/proyecto-gym.webp";
 import todo from "../assets/todo.webp";
 import budin from "../assets/budin.webp";
 import orilla from "../assets/orilla.webp";
+import swish from "../assets/swish.webp";
 
 export const PROJECTS = [
   {
@@ -48,5 +49,16 @@ export const PROJECTS = [
     link: "https://github.com/matias-05/orilla-mates",
     linkPag: "https://orilla-mates.vercel.app/",
     image: orilla,
+  },
+  {
+    id: 5,
+    title: "Swish",
+    description: "Proyecto e-commerce para la venta de accesorios deportivos.",
+    frontend: ["React", "React Router", "Tailwind"],
+    backend: ["Node.js"],
+    db: ["Firebase"],
+    link: "https://github.com/matias-05/swish",
+    linkPag: "https://swish-parana.vercel.app/",
+    image: siwsh,
   },
 ];
