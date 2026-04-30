@@ -59,6 +59,6 @@ export const PROJECTS = [
     db: ["Firebase"],
     link: "https://github.com/matias-05/swish",
     linkPag: "https://swish-parana.vercel.app/",
-    image: siwsh,
+    image: swish,
   },
 ];
