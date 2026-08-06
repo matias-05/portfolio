@@ -55,7 +55,8 @@ export default function Sobremi() {
                 <span className="font-bold text-white">
                   Tecnologías Principales:
                 </span>{" "}
-                React, Java, C#, Html, Css, JavaScript, PostgreSql, MongoDB.
+                React, Java, C#, Html, Css, JavaScript, PostgreSql, MongoDB,
+                TypeScript, NestJS.
               </p>
             </div>
           </div>
@@ -68,11 +69,11 @@ export default function Sobremi() {
 
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 hidden md:block">
         <a
-          href="#proyectos"
+          href="#experiencia"
           className="flex flex-col items-center gap-2 opacity-50 hover:opacity-100 transition-opacity"
         >
           <span className="text-[10px] uppercase tracking-[3px] text-slate-400">
-            Mira mis proyectos
+            Mira mi experiencia
           </span>
           <div className="w-[1px] h-12 bg-gradient-to-b from-cyan-500 to-transparent animate-pulse"></div>
         </a>
